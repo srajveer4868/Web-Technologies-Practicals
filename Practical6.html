@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>School bookstore survey</title> 
+</head> 
+<body> 
+      <h1 align="center">School Bookstore Survey</h1> 
+      <p align="center"><big>Please compelete the following survey to help 
+our school bookstore understand student's book buying habits.</big> </p>
+   <form> 
+        <h2> Basic information </h2> 
+            <label>Name :</label>- 
+            <input type ="text"> 
+            <br><br> 
+ 
+            <label>address :</label> 
+            <input type ="text"> 
+            <br><br> 
+ 
+            <label>city :</label> 
+            <input type ="text"> 
+            <br><br> 
+ 
+            <label>pin code :</label> 
+            <input type ="text"> 
+            <br><br> 
+ 
+            <label>Email :</label> 
+            <input type ="text"> 
+            <br><br>
+
+        <h2>Book Buying Survey</h2> 
+            <p><big>1. where do you usually purchase your books? </big></p> 
+ 
+            <input type ="radio" id="School" name="place" value="School"> 
+            <label for="School"> School bookstore</label>   
+            <br><br> 
+ 
+            <input type ="radio" id="online" name="place" value="online"> 
+            <label for="online"> Online bookstore </label> 
+            <br><br> 
+ 
+            <input type="radio" id="local" name="place" value="local bookstore"> 
+            <label for="local"> Local Bookstore</label> 
+            <br><br> 
+ 
+            <input type="radio" id="Other" name="place" value="Other"> 
+            <label for="Other"> Other </label> 
+            <br><br>
+
+        <p><big> 2. How often do you purchase books? </big></p> 
+ 
+            <select name="time"> 
+                  <option value=""> --Select-- </option> 
+                  <option value="">Weekly</option> 
+                  <option value="">Monthly</option> 
+                  <option value="">Every few Months</option> 
+                  <option value="">Rarely</option> 
+            </select> 
+ 
+        <p><big> 3. What type of books do you usually buy?</big></p>             
+ 
+            <input type="checkbox" id="textbooks" name="books"value="textbooks"> 
+            <label for="textbooks"> Textbooks </label> 
+            <br><br> 
+ 
+            <input type="checkbox" id="reference" name="books"value="Reference books"> 
+            <label for="reference">Reference books</label> 
+            <br><br> 
+
+            <input type="checkbox" id="Novels" name="books" value="Novels"> 
+            <label for="Novels">Novels</label> 
+            <br><br> 
+ 
+            <input type="checkbox" id="Competitive Exam Books" name="books"value="Competitive Exam Books"> 
+            <label for="Competitive">Competitive Exam Books</label> 
+            <br><br> 
+ 
+            <input type="checkbox" id="Otherbooks" name="books"value="Other"> 
+            <label for="Other">Other books</label> 
+            <br><br> 
+ 
+        <p><big> 4. What is main reason you choose where to buy books?</big></p> 
+ 
+            <select value="reason"> 
+                  <option value="">--select--</option>  
+                  <option value="price"> Low price </option> 
+                  <option value="quality">Quality</option> 
+                  <option value="discounts">Discounts</option> 
+            </select>
+
+        <p><big> 5. Would you purchase more books from the school bookstore if discounts were offered? </big></p> 
+            <input type="radio" id="Yes" name="discount" value="Yes"> 
+            <label for="Yes"> Yes </label> 
+            <br><br> 
+ 
+            <input type="radio" id="No" name="discount" value="No"> 
+            <label for="No"> No </label> 
+            <br><br> 
+ 
+        <p><big> 6.What improvements would you like to see in the School bookstore? </big></p> 
+            <textarea name="suggestions" rows="6" cols="60" placeholder="Enter your suggestions here..."></textarea> 
+            <br><br> 
+            
+            <input type="submit" value="submit survey"> 
+            <br><br> 
+            <input type="reset" value="reset "> 
+             
+      </form> 
+</body> 
+</html>
